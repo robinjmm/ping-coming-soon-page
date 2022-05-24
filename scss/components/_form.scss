@@ -10,7 +10,8 @@
         border-radius: 3em;
         color: var(--text-dark-color);
         padding: 1em em(40px, 16px);
-        margin-bottom: 1em;
+        font-size: 1rem;
+        height: 55px;
 
         &:focus,
         &:active {
@@ -20,7 +21,26 @@
 
         &::placeholder {
             color: var(--text-color);
+            font-size: 1rem;
             font-weight: var(--fw-normal);
+            overflow: visible;
         }
     }
+
+    &__error {
+        visibility: hidden;
+        font-size: rem(14px);
+        font-style: italic;
+        color: var(--error-color);
+    }
+}
+
+.visible {
+    visibility: visible;
+    margin-top: 0.5em;
+    margin-bottom: 2.5em;
+}
+
+.border-red {
+    border: 1px solid var(--error-color);
 }

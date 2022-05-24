@@ -2,12 +2,14 @@
 
 .button {
     width: 100%;
+    margin-top: -10px;
     background-color: var(--bg-button);
     color: var(--light-text-color);
     font-weight: var(--fw-semi-bold);
     padding: 1em em(40px, 16px);
     border-radius: 3em;
     box-shadow: 0 10px 10px rgba(31, 122, 239, 0.2);
+    transition: background-color 0.2 ease-in;
 
     &:hover {
         background-color: var(--bg-hover);
