@@ -1,0 +1,38 @@
+@use '../base/variables' as *;
+
+@media (min-width: 768px) {
+    body {
+        display: flex;
+        align-items: center;
+        font-size: rem(20px);
+    }
+
+    .logo {
+        height: 30px;
+    }
+
+    .heading {
+        font-size: rem(44px);
+        margin-bottom: 0.25em;
+    }
+
+    .form {
+        display: flex;
+        margin-bottom: 100px;
+        align-items: flex-start;
+        gap: 1em;
+
+        &__group {
+            width: 65%;
+        }
+
+        &__input {
+            height: 63px;
+        }
+    }
+
+    .button {
+        width: 35%;
+        margin-top: 0;
+    }
+}

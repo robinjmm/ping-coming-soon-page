@@ -9,8 +9,7 @@
         border: 1px solid var(--border-color);
         border-radius: 3em;
         color: var(--text-dark-color);
-        padding: 1em em(40px, 16px);
-        font-size: 1rem;
+        padding: 1em em(25px, 16px);
         height: 55px;
 
         &:focus,
@@ -21,14 +20,13 @@
 
         &::placeholder {
             color: var(--text-color);
-            font-size: 1rem;
             font-weight: var(--fw-normal);
             overflow: visible;
         }
     }
 
     &__error {
-        visibility: hidden;
+        display: none;
         font-size: rem(14px);
         font-style: italic;
         color: var(--error-color);
@@ -36,9 +34,9 @@
 }
 
 .visible {
-    visibility: visible;
+    display: block;
     margin-top: 0.5em;
-    margin-bottom: 2.5em;
+    margin-bottom: 1.5em;
 }
 
 .border-red {
