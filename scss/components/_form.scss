@@ -1,0 +1,26 @@
+@use '../base/variables' as *;
+
+.form {
+    width: 100%;
+    margin-bottom: 70px;
+
+    &__input {
+        width: 100%;
+        border: 1px solid var(--border-color);
+        border-radius: 3em;
+        color: var(--text-dark-color);
+        padding: 1em em(40px, 16px);
+        margin-bottom: 1em;
+
+        &:focus,
+        &:active {
+            outline: none;
+            border: 1px solid var(--border-active-color);
+        }
+
+        &::placeholder {
+            color: var(--text-color);
+            font-weight: var(--fw-normal);
+        }
+    }
+}

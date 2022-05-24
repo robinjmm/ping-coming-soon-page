@@ -1,0 +1,48 @@
+@use '../base/variables' as *;
+
+body {
+    width: 100%;
+    padding: 10vh 0;
+    font-size: 1rem;
+}
+
+.container {
+    width: 85%;
+    max-width: 635px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+header {
+    margin-bottom: 50px;
+}
+
+.heading {
+    font-size: rem(25px);
+    margin: 2em 0 0.5em;
+    color: var(--text-color);
+    font-weight: var(--fw-normal);
+}
+
+.bold {
+    color: var(--dark-text-color);
+    font-weight: var(--fw-bold);
+}
+
+.sub-heading {
+    font-size: 1rem;
+    color: var(--dark-text-color);
+}
+
+footer {
+    color: var(--text-color);
+    padding-top: em(90px, 16px);
+}
+
+.social-group {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    margin-bottom: 2em;
+}

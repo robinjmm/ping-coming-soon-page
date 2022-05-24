@@ -1,0 +1,15 @@
+@use '../base/variables' as *;
+
+.button {
+    width: 100%;
+    background-color: var(--bg-button);
+    color: var(--light-text-color);
+    font-weight: var(--fw-semi-bold);
+    padding: 1em em(40px, 16px);
+    border-radius: 3em;
+    box-shadow: 0 10px 10px rgba(31, 122, 239, 0.2);
+
+    &:hover {
+        background-color: var(--bg-hover);
+    }
+}

@@ -1,0 +1,27 @@
+@use '../base/variables' as *;
+
+.social-icon {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 1px solid var(--border-color);
+    transition: background-color 0.2s ease-in;
+
+    &:hover {
+        background-color: var(--bg-button);
+
+    }
+
+    &:hover .fa-brands {
+        color: var(--light-text-color);
+    }
+}
+
+.fa-brands {
+    font-size: rem(20px);
+    color: var(--bg-button);
+    transition: color 0.2s ease-in;
+}

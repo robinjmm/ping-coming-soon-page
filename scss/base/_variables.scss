@@ -1,0 +1,33 @@
+:root {
+    // Colors
+    --text-color: hsl(0, 0%, 59%);
+    --dark-text-color: hsl(209, 33%, 12%);
+    --light-text-color: hsl(0, 0%, 100%);
+    --error-color: hsl(354, 100%, 66%);
+    --border-color: hsl(223, 100%, 88%);
+    --border-active-color: hsl(223, 87%, 63%);
+
+    --bg-button: hsl(223, 87%, 63%);
+    --bg-hover: hsl(223, 91%, 72%);
+
+    // Fonts
+    --ff-primary: 'Libre Franklin', sans-serif;
+    --fw-normal: 300;
+    --fw-semi-bold: 600;
+    --fw-bold: 700;
+}
+
+
+// Convert pixel to rem values
+@function rem($value) {
+    $remValue: calc(($value / 1rem) * 1rem);
+    @return $remValue;
+}
+
+
+// $value is the desired size
+// $base is font-size of the parent
+@function em($value, $base) {
+    $emValue: calc(($value / $base) * 1em);
+    @return $emValue;
+}

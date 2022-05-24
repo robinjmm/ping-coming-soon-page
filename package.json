@@ -19,5 +19,8 @@
   "homepage": "https://github.com/robinjmm/ping-coming-soon-page#readme",
   "devDependencies": {
     "sass": "^1.52.1"
+  },
+  "dependencies": {
+    "modern-normalize": "^1.1.0"
   }
 }
