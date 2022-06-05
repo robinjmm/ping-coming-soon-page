@@ -8,7 +8,7 @@
 ## About
 This is my solution for the challenge of building a Coming Soon Page for a fictional company called Ping. The challenge is from [Frontendmentor.io](https://www.frontendmentor.io).
 
-I don't have much to say about this challenge. The layout was fairlyI don't have much to say about this challenge. The layout was pretty simple, only a single-column layout. The form validation was simple, too, since there's only one form. The only real challenge is the layout and spacing between elements. It's not a pixel-perfect re-creation since I don't have access to the premium Figma files.
+I don't have much to say about this challenge. The layout was pretty simple, only a single-column layout. The form validation was simple, too, since there's only one form. The only real challenge is the layout and spacing between elements. It's not a pixel-perfect re-creation since I don't have access to the premium Figma files.
 
 **Any feedback on how to improve my solution would be greatly appreciated.** 😊
 ## User Stories
