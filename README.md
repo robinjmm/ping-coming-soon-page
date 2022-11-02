@@ -1,16 +1,13 @@
 # Ping Coming Soon Page
-![](./images/solution-screenshot.png)
+![](src/assets/images/solution-screenshot.png)
 
 ## Links
 - [Challenge Link](https://www.frontendmentor.io/challenges/ping-single-column-coming-soon-page-5cadd051fec04111f7b848da)
-- [Site Preview](https://robinjmm-ping.netlify.app/)
+- [Site Preview](https://robinjmm-ping.vercel.app/)
 
 ## About
-This is my solution for the challenge of building a Coming Soon Page for a fictional company called Ping. The challenge is from [Frontendmentor.io](https://www.frontendmentor.io).
+This is my solution for the Ping Coming Soon Page challenge from [Frontendmentor.io](https://www.frontendmentor.io/challenges/ping-single-column-coming-soon-page-5cadd051fec04111f7b848da)
 
-I don't have much to say about this challenge. The layout was pretty simple, only a single-column layout. The form validation was simple, too, since there's only one form. The only real challenge is the layout and spacing between elements. It's not a pixel-perfect re-creation since I don't have access to the premium Figma files.
-
-**Any feedback on how to improve my solution would be greatly appreciated.** 😊
 ## User Stories
 The user should be able to:
 - View the optimal layout for the site depending on their device's screen size
@@ -21,16 +18,18 @@ The user should be able to:
     - The email address is not formatted correctly
 
 ## Built With
-- Semantic HTML5
+- HTML5
 - CSS3
 - Flexbox
 - Sass
+- PostCSS
 - JavaScript
+- Parcel
 
 ## Usage
-You can download the project files by clicking on the green **Code** button, then select **Download Zip**.
+You can download the project files by clicking on the green **Code** button,  then select **Download Zip**.
 
-Once you finish extracting, move into the project folder, open the terminal, and type the following code:
+Once you finish extracting, open the terminal, move into the project folder, and run the following command while in the project directory:
 
 ```
 npm install
@@ -38,17 +37,16 @@ npm install
 
 This will install all the required dependencies.
 
-To compile Sass into CSS and watch for any future changes, type the following code in your terminal:
-
-
-```
-npm run sass
-```
-
-To compile Sass into a minified version of CSS, run:
+To launch a development server while watching changes in your files, run the following command in your terminal.
 
 ```
-npm run prod
+npm run dev
+```
+
+To compile and optimize your code for production, run the following command in your terminal.
+
+```
+npm run build
 ```
 
 ## Acknowledgement
