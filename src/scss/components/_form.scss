@@ -1,4 +1,4 @@
-@use '../base/variables' as *;
+@use "../base/variables" as *;
 
 .form {
     width: 100%;
@@ -9,7 +9,7 @@
         border: 1px solid var(--border-color);
         border-radius: 3em;
         color: var(--text-dark-color);
-        padding: 1em em(25px, 16px);
+        padding: 1em toEm(25px, 16px);
         height: 55px;
 
         &:focus,
@@ -27,7 +27,7 @@
 
     &__error {
         display: none;
-        font-size: rem(14px);
+        font-size: toRem(14px);
         font-style: italic;
         color: var(--error-color);
     }

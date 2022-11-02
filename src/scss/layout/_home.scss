@@ -1,4 +1,4 @@
-@use '../base/variables' as *;
+@use "../base/variables" as *;
 
 body {
     width: 100%;
@@ -18,7 +18,7 @@ header {
 }
 
 .heading {
-    font-size: rem(25px);
+    font-size: toRem(25px);
     margin: 2em 0 0.5em;
     color: var(--text-color);
     font-weight: var(--fw-normal);
@@ -35,7 +35,7 @@ header {
 
 footer {
     color: var(--text-color);
-    padding-top: em(90px, 16px);
+    padding-top: toEm(90px, 16px);
 }
 
 .social-group {

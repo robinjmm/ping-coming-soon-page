@@ -1,6 +1,6 @@
-@use '../base/variables' as *;
+@use "../base/variables" as *;
 
 .logo {
     margin: 0 auto;
-    height: rem(20px);
+    height: toRem(20px);
 }

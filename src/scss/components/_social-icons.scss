@@ -1,4 +1,4 @@
-@use '../base/variables' as *;
+@use "../base/variables" as *;
 
 .social-icon {
     display: flex;
@@ -21,7 +21,17 @@
 }
 
 .fa-brands {
-    font-size: rem(20px);
+    font-size: toRem(20px);
     color: var(--bg-button);
     transition: color 0.2s ease-in;
+}
+
+.fa-github {
+    font-size: toRem(30px);
+    cursor: pointer;
+    color: var(--dark-text-color);
+}
+
+.github-link {
+    margin-top: toRem(60px);
 }

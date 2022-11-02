@@ -1,15 +1,19 @@
-@use 'base/reset';
+@use "base/reset";
 
-@use 'base/defaults';
+@use "base/defaults";
 
-@use 'components/logo';
+@use "components/logo";
 
-@use 'components/form';
+@use "components/form";
 
-@use 'components/button';
+@use "components/button";
 
-@use 'components/social-icons';
+@use "components/social-icons";
 
-@use 'layout/layout';
+@use "fontawesome/fontawesome";
 
-@use 'layout/media-queries';
+@use "fontawesome/brands";
+
+@use "layout/home";
+
+@use "layout/media-queries";
