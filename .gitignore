@@ -105,3 +105,9 @@ dist
 
 # CSS output files from Sass compile
 css/
+
+# Parecl cache files
+.parcel-cache/
+
+# dist/ folder created by parcel
+dist/
