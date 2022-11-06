@@ -1,0 +1,20 @@
+@use "../base/variables" as *;
+
+// Utility classes used only when there is user interaction through JavaScript
+
+/*! purgecss start ignore */
+.visible {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 1.5em;
+}
+
+.border-red {
+    border: 1px solid var(--error-color);
+}
+
+.bold {
+    color: var(--dark-text-color);
+    font-weight: var(--fw-bold);
+}
+/*! purgecss end ignore */
