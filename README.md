@@ -6,7 +6,7 @@
 - [Site Preview](https://robinjmm-ping.vercel.app/)
 
 ## About
-This is my solution for the Ping Coming Soon Page challenge from [Frontendmentor.io](https://www.frontendmentor.io/challenges/ping-single-column-coming-soon-page-5cadd051fec04111f7b848da)
+This is my solution for the **Ping Coming Soon Page** challenge from [Frontendmentor.io](https://www.frontendmentor.io/challenges/ping-single-column-coming-soon-page-5cadd051fec04111f7b848da)
 
 ## User Stories
 The user should be able to:
