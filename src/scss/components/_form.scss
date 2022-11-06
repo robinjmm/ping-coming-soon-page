@@ -25,10 +25,17 @@
         }
     }
 
-    &__error {
+    &__text {
         display: none;
         font-size: toRem(14px);
         font-style: italic;
-        color: var(--error-color);
+
+        &--success {
+            color: var(--success-color);
+        }
+
+        &--error {
+            color: var(--error-color);
+        }
     }
 }
